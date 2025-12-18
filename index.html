@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced GitHub User Finder</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>GITHUB USER FINDER APP</h1>
+
+    <div class="search-box">
+      <input type="text" id="username" placeholder="Enter GitHub username" />
+      <button onclick="getUser()">Search</button>
+    </div>
+
+    <div class="loader" id="loader">
+        Loading user data...
+
+    </div>
+    <div id="result">
+
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
